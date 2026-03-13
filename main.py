@@ -113,5 +113,34 @@ def main():
     set_with_dataframe(ws, final_df)
     print("\n✅ All Intraday Data Uploaded Successfully")
 
+
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+        print("Waiting 15 minutes before the next fetch...")
+        time.sleep(900) # 900 seconds = 15 minutes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
